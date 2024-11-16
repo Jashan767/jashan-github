@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Hotel Booking Website</a></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+                
+               
+                <button><a href="sign in.html">SignIn</a></button>
+                <button><a href="sign up.html">SignUp</a></button>
+            </ul>
+            <div class="search">
+                <form>
+                    <i class="fa-solid fa-magnifying-glass"></i><!--icon-->
+                    <input type="text" placeholder="search...">
+                    <button type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+       
+    </nav>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Luxury Hotels</h2>
+            <p>Experience the best stay with our luxurious rooms and exceptional service.</p>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2>Our Rooms</h2>
+            <div class="room-card">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/440511274.jpg?k=96a296acccc941f8c3de6cbbfb25a1fe1cae98e52a9563c536d805c33f79c97f&o=&hp=1" alt="Deluxe Room">
+                <h3>Hotel Seven</h3>
+               
+               
+            </div>
+            <div class="room-card">
+                <img src="https://vr-thumbs.vacationrenter.com/480/booking/2791635/f02cc2.jpg" alt="Executive Suite">
+                <h3>Hotel City Plaza</h3>
+                
+                
+            </div>
+            <div class="room-card">
+                <img src="https://vr-thumbs.vacationrenter.com/480/booking/1171556/d6a43c.jpg" alt="Presidential Suite">
+                <h3>Taj Hotel</h3>
+            
+              
+            </div>
+            <div class="room-card">
+                <img src="https://vr-thumbs.vacationrenter.com/480/booking/217910/73f71a.jpg" alt="Presidential Suite">
+                <h3>Hotel Emerald</h3>
+            
+                
+            </div>
+            <div class="room-card">
+                <img src="https://vr-thumbs.vacationrenter.com/480/booking/1637921/5828c7.jpg" alt="Presidential Suite">
+                <h3>Hotel Oyster</h3>
+               
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <h2>Facilities</h2>
+            <div class="facility-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Backyardpool.jpg/1200px-Backyardpool.jpg" alt="Swimming Pool">
+                <h3>Swimming Pool</h3>
+                <p>Relax in our infinity pool with a stunning view.</p>
+            </div>
+            <div class="facility-card">
+                <img src="https://www.fiveelementsspa.com/wp-content/uploads/2023/12/SPA-Health-Wellness.jpg" alt="Spa & Wellness">
+                <h3>Spa & Wellness</h3>
+                <p>Indulge in luxury with our top-notch spa services.</p>
+            </div>
+            <div class="facility-card">
+                <img src="https://media.istockphoto.com/id/1081422898/photo/pan-fried-duck.jpg?s=612x612&w=0&k=20&c=kzlrX7KJivvufQx9mLd-gMiMHR6lC2cgX009k9XO6VA=" alt="Fine Dining">
+                <h3>Fine Dining</h3>
+                <p>Enjoy gourmet meals prepared by world-class chefs.</p>
+            </div>
+        </div>
+    </section>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us by filling out the form below.</p>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="afb87408-695e-4ed2-817b-6822d7df5b25">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="Email">Email:</label>
+            <input type="Email" id="email" name="email" required>
+
+            <label for="Phone no.">Phone no.:</label>
+            <input type="text" id="Phone" name="Phone no." required>
+
+            <label for="Message">Message:</label>
+            <textarea id="Message" name="Message" rows="5" placeholder="How can i help you?" ></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+
+
+</body>
+</html>

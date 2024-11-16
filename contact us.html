@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Hotel Booking Website</a></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+                
+               
+                <button><a href="sign in.html">SignIn</a></button>
+                <button><a href="sign up.html">SignUp</a></button>
+            </ul>
+            <div class="search">
+                <form>
+                    <i class="fa-solid fa-magnifying-glass"></i><!--icon-->
+                    <input type="text" placeholder="search...">
+                    <button type="submit">Go</button>
+                </form>
+            </div>
+        </div>
+       
+    </nav>
+  
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us by filling out the form below.</p>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="afb87408-695e-4ed2-817b-6822d7df5b25">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="Email">Email:</label>
+            <input type="Email" id="email" name="email" required>
+
+            <label for="Phone no.">Phone no.:</label>
+            <input type="text" id="Phone" name="Phone no." required>
+
+            <label for="Message">Message:</label>
+            <textarea id="Message" name="Message" rows="5" placeholder="How can i help you?" ></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
